@@ -1,0 +1,20 @@
+matchId,homeTeam,awayTeam,homeTeamGoals,awayTeamGoals
+1,Arsenal,Leeds,1,0
+2,Brighton,Wolves,1,0
+3,Man United,Man City,1,0
+4,Spurs,Palace,3,0
+5,Everton,Norwich,0,0
+6,Newcastle,Southampton,0,0
+7,Arsenal,Wolves,9,0
+8,Brighton,Leeds,1,0
+9,Man United,Spurs,1,0
+10,Man City,Palace,3,0
+11,Everton,Newcastle,0,0
+12,Norwich,Southampton,0,0
+13,Arsenal,Spurs,1,0
+14,Arsenal,Southampton,8,2
+15,Brighton,Palace,1,0
+16,Palace,Leeds,1,0
+17,Arsenal,Norwich,5,0
+18,Newcastle,Wolves,0,0
+19,Wolves,Arsenal,1,7
