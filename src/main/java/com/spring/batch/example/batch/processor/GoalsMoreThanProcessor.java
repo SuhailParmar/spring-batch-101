@@ -1,4 +1,4 @@
-package com.spring.batch.example.batch;
+package com.spring.batch.example.batch.processor;
 
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.beans.factory.annotation.Value;

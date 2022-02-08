@@ -1,4 +1,4 @@
-package com.spring.batch.example.batch;
+package com.spring.batch.example.batch.writer;
 
 import java.util.List;
 
@@ -21,8 +21,11 @@ public class GoalsMoreThanWriter implements ItemWriter<GoalsForATeam> {
     public void write(List<? extends GoalsForATeam> goalsForATeam){
         System.out.printf("Writing to console that [%s] scored more than [%s] goals [%s] times during this chunked period.\n", team, scoreThreshold, goalsForATeam.size());
         if(!goalsForATeam.isEmpty()){
-            goalsForATeam.forEach(goalForATeam -> System.out.printf("Writing in Game [%s] [%s] scored [%s]\n", goalForATeam.getId(), goalForATeam.getTeam(), goalForATeam.getGoalsScored())
-            );
+            goalsForATeam.forEach(this::writeToConsole);
         }
+    }
+
+    private void writeToConsole(GoalsForATeam goalForATeam){
+        System.out.printf("Writing in Game [%s] [%s] scored [%s]\n", goalForATeam.getId(), goalForATeam.getTeam(), goalForATeam.getGoalsScored());
     }
 }

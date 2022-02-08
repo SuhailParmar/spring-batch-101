@@ -15,11 +15,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
-import com.spring.batch.example.batch.GoalsMoreThanWriter;
-import com.spring.batch.example.batch.GoalsByTeamProcessor;
-import com.spring.batch.example.batch.GoalsForATeamWriter;
-import com.spring.batch.example.batch.GoalsMoreThanProcessor;
-import com.spring.batch.example.batch.MatchesReader;
+import com.spring.batch.example.batch.writer.GoalsMoreThanWriter;
+import com.spring.batch.example.batch.processor.GoalsByTeamProcessor;
+import com.spring.batch.example.batch.writer.GoalsForATeamWriter;
+import com.spring.batch.example.batch.processor.GoalsMoreThanProcessor;
+import com.spring.batch.example.batch.reader.MatchesReader;
 import com.spring.batch.example.model.GoalsForATeam;
 import com.spring.batch.example.model.Match;
 

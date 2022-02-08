@@ -1,4 +1,4 @@
-package com.spring.batch.example.batch;
+package com.spring.batch.example.batch.reader;
 
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.LineMapper;

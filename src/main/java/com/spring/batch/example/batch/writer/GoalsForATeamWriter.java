@@ -1,4 +1,4 @@
-package com.spring.batch.example.batch;
+package com.spring.batch.example.batch.writer;
 
 import java.util.List;
 
